@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <nav className="justify-center flex gap-4 text-blue-400">
         <Link href='/'>Home Page</Link>
         <Link href='/new'>New Post</Link>
+        <Link href='/about'>About</Link>
       </nav>
       <main className="text-center">
         <Component {...pageProps} />
